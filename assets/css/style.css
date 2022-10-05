@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Struttura webapp */
 .container{
     height: 100vh;
 }
@@ -34,6 +35,7 @@
     background-color: #282828;
 }
 
+/* Subscription section (tasto upgrade) */
 .subscription{
     justify-content: flex-end;
     padding: 20px 5px;
@@ -50,14 +52,91 @@
     font-weight: bolder;
 }
 
+/* Left container */
+.divisor{
+    height: 100%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
 .mobile-xs-show{
     display: none;
 }
 
-.mobile-xs-dont-show{
+.logo-spotify{
     width: 80%;
     padding: 1rem;
 }
+
+.lateral-img-dimension{
+    width: 16%;
+    padding: 1px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.lateral-img-dimension+span{
+    color: gray;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.fa-square-plus{
+    color: grey;
+    padding-left: 15px;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+.fa-square-plus+span{
+    color: grey;
+    vertical-align: middle;
+    font-size: 0.8rem;
+}
+
+.left-container > div > h3{
+    color: white;
+    font-size: 0.7rem;
+    padding: 15px 0 2px 15px;
+}
+
+.playlist-name{
+    color: grey;
+    padding: 5px 0 0 15px;
+    font-size: 0.8rem;
+}
+
+/* ACCOUNT MANAGER  */
+#app-download > img,
+#profile-container > img{
+    width: 15%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#app-download > span,
+#profile-container > span{
+    color: grey;
+    vertical-align: middle;
+    font-size: 0.8rem;
+}
+
+#profile-container > span{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
 
 
 
@@ -75,4 +154,17 @@
     .mobile-xs-dont-show{
         display: none;
     }
+
+    .lateral-img-dimension{
+        width: 100%;
+        padding: 0.5rem;
+        margin: 0;
+    }
+
+    #app-download > img, #profile-container > img {
+        width: 70%;
+        padding: 5px;
+        margin-left: 5px
+}
+
 }

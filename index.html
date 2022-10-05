@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link -->
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Spotify</title>
 </head>
@@ -17,12 +17,49 @@
             <!-- Contenitore a sinistra -->
             <div class="left-container">
                 <!-- Logo -->
-                <div>
-                    <img class="mobile-xs-dont-show" src="assets/img/logo.svg" alt="logo">
-                    <img class="mobile-xs-show" src="assets/img/logo-small.svg" alt="">
+                <div class="divisor flex column space-between">
+                    <!-- Logo -->
+                    <div>
+                        <img class="mobile-xs-dont-show logo-spotify" src="assets/img/logo.svg" alt="logo">
+                        <img class="mobile-xs-show" src="assets/img/logo-small.svg" alt="">
+                    <!-- 3 Bottoni laterali -->
+                        <div>
+                            <img class="lateral-img-dimension" src="assets/img/home.svg" alt="home button"><span class="mobile-xs-dont-show">Home</span> <br>
+                        </div>
+                        <div>
+                            <img class="lateral-img-dimension" src="assets/img/search.svg" alt="search button"><span class="mobile-xs-dont-show">Cerca</span> <br>
+                        </div>
+                        <div>
+                            <img class="lateral-img-dimension" src="assets/img/libreria.svg" alt="librabry button"><span class="mobile-xs-dont-show">La tua libreria</span> 
+                        </div>
+                    <!-- Playlist -->
+                        <h3 class="mobile-xs-dont-show">PLAYLIST</h3>
+                        <div>
+                            <i class="fa-regular fa-square-plus mobile-xs-dont-show"></i>     <span><strong class="mobile-xs-dont-show">Crea Playlist</strong></span>
+                        </div>
+                        <div class="playlist-name mobile-xs-dont-show">Pop</div>
+                        <div class="playlist-name mobile-xs-dont-show">Rap</div>
+                        <div class="playlist-name mobile-xs-dont-show">Carmine</div>
+                        <div class="playlist-name mobile-xs-dont-show">Tik tok song</div>
+                        <div class="playlist-name mobile-xs-dont-show">Coding</div>
+                        <div class="playlist-name mobile-xs-dont-show">Soundtrack</div>
+                        <div class="playlist-name mobile-xs-dont-show">Drive</div>
+                    </div>
+                    <!-- Account manager -->
+                    <div>
+                        <div id="app-download">
+                            <img src="assets/img/download.svg" alt="download">
+                            <span class="mobile-xs-dont-show">Installa app</span>
+                        </div>
+                        <hr class="mobile-xs-dont-show">
+                        <div id="profile-container">
+                            <img src="assets/img/profile.svg" alt="user">
+                            <span class="mobile-xs-dont-show">Carmine Mele</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- CONTENITORE PLAYLIST -->
+            <!-- CONTENITORE IMMAGINI PLAYLIST -->
             <div class="playlist-container">
                 <div class="subscription flex">
                     <button> EFFETUA L'UPGRADE </button>

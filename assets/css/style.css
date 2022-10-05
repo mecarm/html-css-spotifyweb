@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
 
 /* Struttura webapp */
@@ -27,6 +28,7 @@
     height: 100%;
     width: 100%;
     background-color: #141921;
+    overflow: auto;
 }
 
 .player{
@@ -132,6 +134,48 @@
     font-weight: bold;
 }
 
+/* Playlist container */
+.category{
+    color: grey;
+    font-size: 0.7rem;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.category > div{
+    padding: 1rem 5px;
+}
+
+.just-center{
+    justify-content: center;
+}
+
+.recent-played{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.recent-played > h3{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.song-container{
+    width: calc(100% / 7);
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+    display: inline-block;
+}
+
+.song-container > div{
+    color: grey;
+    padding-top: 5px;
+}
+
+.song-container > img{
+    width: 100%;
+}
 
 
 

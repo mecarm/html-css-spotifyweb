@@ -30,7 +30,7 @@
 
 .player{
     width: 100%;
-    height: 100px;
+    height: 70px;
     background-color: #282828;
 }
 
@@ -41,9 +41,38 @@
 }
 
 .subscription > button{
-    padding: 10px 25px;
+    padding: 0.8rem 1rem;
     background-color: rgba(6, 6, 6, 0.868);
     border: 1px solid white ;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
+    font-size: 0.5rem;
+    font-weight: bolder;
+}
+
+.mobile-xs-show{
+    display: none;
+}
+
+.mobile-xs-dont-show{
+    width: 80%;
+    padding: 1rem;
+}
+
+
+
+@media screen and (max-width: 375px) {
+    
+    .left-container{
+        width: 50px;
+    }
+    
+    .mobile-xs-show {
+        display: inline-block;
+        padding: 0.5rem;
+    }
+
+    .mobile-xs-dont-show{
+        display: none;
+    }
 }

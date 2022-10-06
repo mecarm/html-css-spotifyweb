@@ -207,7 +207,6 @@
 }
 
 /* Sezione player musica */
-
 .player{
     padding: 10px;
 }
@@ -217,10 +216,9 @@
 }
 
 .f-basis-50{
-    flex-basis: 60%;
-    background-color: antiquewhite;  
-}
+    flex-basis: 50%;}
 
+/* Whats playing now? SECTION LEFT */
 .whats-playing{
     color: grey;
 }
@@ -248,13 +246,50 @@
     font-size: 0.7rem;
 }
 
+/* Player manager Section Middle */
+
+.manager-upper{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.manager-upper > i{
+    padding: 5px 1%;
+}
+
+.duration{
+    color: white;
+    width: 10%;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.move-time-player{
+    height: 5px;
+    width: 75%;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.time-playing{
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 30%;
+}
 
 
 
 
 
 
-@media screen and (max-width: 375px) {
+
+
+
+
+@media screen and (max-width: 425px) {
     
     .left-container{
         width: 50px;

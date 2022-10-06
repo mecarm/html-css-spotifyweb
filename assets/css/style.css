@@ -280,7 +280,30 @@
     width: 30%;
 }
 
+/* Player-Volume right */
+.volume{
+    width: 40%;
+    color: white;
+    font-size: 0.7rem;
+}
 
+.volume > i{
+    padding-left: 5%;
+}
+
+.volume-bar{
+    height: 5px;
+    width: 65%;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+.volume-bar > div{
+    height: 5px;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+}
 
 
 
@@ -314,15 +337,27 @@
         width: 70%;
         padding: 5px;
         margin-left: 5px
-    }   
+    } 
+    .volume{
+        width: 60%;
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    .volume-bar{
+        width: 35%;
+    }
 }
+
 
 @media screen and (max-width: 767px){
     .song-container{
         width: calc(100% / 2 );
         font-size: 0.4rem;
     }
+
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .song-container{

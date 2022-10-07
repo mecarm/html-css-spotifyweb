@@ -314,15 +314,12 @@
 .subscription > button:hover{
     padding: 0.8rem 1.1rem;
     font-size: 0.8rem;
-}
-
-
-.song-container:hover > img::before{
-    background-image: url("../img/");
+    cursor: pointer;
 }
 
 .category > div:hover{
     color: white;
+    cursor: pointer;
 }
 
 .yellow-underscore{
@@ -338,32 +335,39 @@
 
 .lateral-img-dimension+span:hover{
     color: white;
+    cursor: pointer;
 }
 
 .playlist-name:hover{
     color: white;
+    cursor: pointer;
 }
 
 #app-download:hover > span{
     color: white;
+    cursor: pointer;
 }
 
 .add-playlist > i:hover{
     color: white;
+    cursor: pointer;
 }
 
 .move-time-player:hover > .time-playing{
     background-color: greenyellow;
     position: relative;
+    cursor: pointer;
 }
 
 .fa-circle-play:hover{
     font-size: 1.6rem;
     color: greenyellow;
+    cursor: pointer;
 }
 
 .volume-bar:hover > div{
     background-color: greenyellow;
+    cursor: pointer;
 }
 
 .move-time-player:hover > .time-playing > .circle-time{
@@ -394,19 +398,16 @@
 
 .song-container:hover > img{
     opacity: 0.3; 
+    cursor: pointer;
 }
 
 .song-container:hover{
     background-image: url("../img/play.png");
     opacity: 1;
     background-size: 30% ;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
 }
-
-
-
-
 
 @media screen and (max-width: 425px) {
     

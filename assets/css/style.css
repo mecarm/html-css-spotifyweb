@@ -281,6 +281,10 @@
     width: 30%;
 }
 
+.circle-time{
+    display: none;
+}
+
 /* Player-Volume right */
 .volume{
     width: 40%;
@@ -350,6 +354,7 @@
 
 .move-time-player:hover > .time-playing{
     background-color: greenyellow;
+    position: relative;
 }
 
 .fa-circle-play:hover{
@@ -359,6 +364,44 @@
 
 .volume-bar:hover > div{
     background-color: greenyellow;
+}
+
+.move-time-player:hover > .time-playing > .circle-time{
+    display: block;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.volume-bar > div{
+    position: relative;
+}
+
+.volume-bar:hover > div > .circle-time{
+    display: block;
+    position: absolute;
+    top: -100%;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.song-container:hover > img{
+    opacity: 0.3; 
+}
+
+.song-container:hover{
+    background-image: url("../img/play.png");
+    opacity: 1;
+    background-size: 30% ;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 

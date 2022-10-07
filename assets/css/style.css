@@ -112,7 +112,7 @@
     font-size: 0.8rem;
 }
 
-.left-container > div > h3{
+.divisor > div > h3{
     color: white;
     font-size: 0.7rem;
     padding: 15px 0 2px 15px;
@@ -122,6 +122,7 @@
     color: grey;
     padding: 5px 0 0 15px;
     font-size: 0.8rem;
+    line-height: 1.2rem;
 }
 
 /* ACCOUNT MANAGER  */
@@ -224,7 +225,7 @@
 }
 
 .cover-img{
-    width: 20%;
+    width: 17%;
 }
 
 .cover-img > img{
@@ -305,8 +306,60 @@
     border-radius: 5px;
 }
 
+/* Hover animations */
+.subscription > button:hover{
+    padding: 0.8rem 1.1rem;
+    font-size: 0.8rem;
+}
 
 
+.song-container:hover > img::before{
+    background-image: url("../img/");
+}
+
+.category > div:hover{
+    color: white;
+}
+
+.yellow-underscore{
+    width: 30%;
+    height: 2px;
+    background-color: greenyellow;
+    margin-left: 40%;
+}
+
+.home{
+    border-left: 2px solid greenyellow;
+}
+
+.lateral-img-dimension+span:hover{
+    color: white;
+}
+
+.playlist-name:hover{
+    color: white;
+}
+
+#app-download:hover > span{
+    color: white;
+}
+
+.add-playlist > i:hover{
+    color: white;
+}
+
+.move-time-player:hover > .time-playing{
+    background-color: greenyellow;
+}
+
+.fa-circle-play:hover{
+    font-size: 1.6rem;
+    color: greenyellow;
+}
+
+.volume-bar:hover > div{
+    background-color: greenyellow;
+}
 
 
 
